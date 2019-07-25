@@ -54,4 +54,18 @@ button {
 	font-weight: bold;
 	border:none;
 	padding: 5px;
+	cursor: pointer;
+}
+
+.quitar {
+	float: right;
+	background: #E17BBA;
+	color: white;
+	border: none;
+	padding: 5px;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }

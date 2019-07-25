@@ -2,7 +2,9 @@ $(document).ready(function() {
 	$('#example1').on('click', function(){
 		$(this).animate({
 			opacity: 0.3
-		}, 'fast', function() {alert('se ha completado')});
+		}, 'fast', function() {
+			console.log('se ha completado con éxito!!')
+		});
 	});
 
 	$('#example2').on('click', function(){

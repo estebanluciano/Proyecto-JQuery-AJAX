@@ -14,6 +14,9 @@ $(document).ready(function() {
 	});*/
 	
 	$('#places-container').on('click', '.remove', function(){
-		var parent = $(this).parent().remove();
+		/*var parent = $(this).parent().remove();
+		*/
+
+		$(this).parent().remove();
 	});
 });

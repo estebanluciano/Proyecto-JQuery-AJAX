@@ -25,6 +25,7 @@ body {
 	width: 15px;
 	float: right;
 	color: red;
+	cursor: pointer;
 }
 
 button {
@@ -33,4 +34,5 @@ button {
 	font-weight: bold;
 	border:none;
 	padding: 5px;
+	cursor: pointer;
 }

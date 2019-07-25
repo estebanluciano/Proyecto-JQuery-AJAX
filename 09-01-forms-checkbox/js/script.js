@@ -8,5 +8,6 @@ $(document).ready(function() {
       $('#pets-row').hide();
     }
   });
+  //dispara el evento por si al recargar la pagina esta cheched la casilla!
   $('#hasPets').trigger('change');
 });

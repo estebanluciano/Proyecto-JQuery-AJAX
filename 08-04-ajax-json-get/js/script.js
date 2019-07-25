@@ -21,6 +21,16 @@ $(document).ready(function() {
       html += '<div class="more-info"><p>'+element.moreInfo+'</p></div>';
       html += '</div>';
 
+      /* armado por mi :)
+      html = '<div class="item-box" data-id="'+element.id+'">'; 
+      html += '<img src="'+element.image+'"/>';
+      html += '<div class="item-title">'+element.name+'</div>';
+      html += '<p>'+element.description+'</p>';
+      html += '<div class="item-price">'+element.price+'</div>';
+      html += '<button>Add to cart</button> <div><a href="#" class="info-link">More info</a></div>';
+      html += '<div class="more-info"><p>'+element.moreInfo+'</p></div></div>';
+      */
+
       $('body').append(html);
     });
   });

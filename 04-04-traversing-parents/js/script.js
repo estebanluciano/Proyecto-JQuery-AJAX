@@ -7,7 +7,12 @@ $(document).ready(function() {
 	result = $('#cat').parents('.category');
 	console.log(result);
 
+	result = $('#cat').parents();
+	console.log(result);
+
 	//closest()
 	result = $('#cat').closest('.category');
 	console.log(result);
+
+	
 });

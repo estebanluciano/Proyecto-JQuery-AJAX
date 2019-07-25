@@ -3,6 +3,7 @@ $(document).ready(function() {
 		$.ajax('result.html')
 			.done(function(response){
 				$('#result').html(response);
+				console.log(response);
 			});		
 	});	
 });

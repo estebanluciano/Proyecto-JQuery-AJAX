@@ -5,6 +5,7 @@ $(document).ready(function() {
 	console.log(result);
 
 	//DOM traversing
-	result = $('#animals').children('div');
+	//result = $('#animals').children('div');
+	result = $('#animals').children('div').children('.terrain');
 	console.log(result);
 });

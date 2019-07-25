@@ -7,10 +7,10 @@ $(document).ready(function() {
 			<div class="remove">X</div>' + value + '</div>';
 		console.log(html);
 
-		//$('#places-container').append(html);
+		$('#places-container').append(html);
 		//$(html).appendTo('#places-container');
 
-		$('#places-container').prepend(html);
+		//$('#places-container').prepend(html);
 		//$(html).prependTo('#places-container');
 	});
 });

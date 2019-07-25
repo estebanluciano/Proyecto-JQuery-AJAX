@@ -29,7 +29,9 @@ $(document).ready(function() {
   });
   $('#pet').trigger('change');
 
+
   $('#your-form').on('submit', function(e) {
+     //para que no recargue el formulario, la pagina.
      e.preventDefault(); 
      
      //alternative: instead of 'formSubmit.json' you can grab the target from the form tag: $(this).attr('action')

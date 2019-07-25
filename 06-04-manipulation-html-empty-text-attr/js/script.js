@@ -1,9 +1,10 @@
 $(document).ready(function() {
-	//$('#container').text('<strong>hola mundo</strong>');
+	$('#container').text('<strong>hola mundo</strong>');
 
-	//$('#container').html('<strong>hola mundo</strong>');
+	$('#container').html('<strong>hola mundo</strong>');
 
-	//$('#container').empty();
+	$('#container').empty();
 
 	$('#container').attr('un-nuevo', 123);
+	$('#container').attr('disabled', false);
 });

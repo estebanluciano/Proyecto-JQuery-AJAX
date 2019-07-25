@@ -11,7 +11,7 @@ $(document).ready(function() {
 		.fail(function(request, errorType, errorMessage){
 			//timeout, error, abort, parseerror
 			console.log(errorType);
-			alert(errorMessage);
+			console.log(errorMessage);
 		})
 		.always(function(){
 			$('#status').text('Completado');
